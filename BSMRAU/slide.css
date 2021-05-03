@@ -1,0 +1,178 @@
+.slide-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.slide-footer a {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.span-arrow {
+    position: relative;
+    display: inline;
+}
+
+.arrow {
+    background: #000;
+    position: absolute;
+    top: 50%;
+    margin-right: 20px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+.arrow:nth-child(1) {
+    width: 10px;
+    height: 1px;
+    right: 0;
+    transform: translateX(1px);
+}
+
+.arrow:nth-child(2) {
+    width: 5px;
+    height: 1px;
+    right: 0;
+    transform: rotate(45deg) translateY(-3px);
+}
+
+.arrow:nth-child(3) {
+    width: 5px;
+    height: 1px;
+    right: 0;
+    transform: rotate(-45deg) translateY(3px) translateX(0px);
+}
+
+.fotter-cover:hover .arrow {
+    margin-right: 10px;
+}
+
+.card-slide {
+    width: 350px;
+    margin: 0 5px;
+    background-color: #fff;
+}
+
+.card-slide .card-image {
+    width: 350px;
+    height: 250px;
+    margin: auto;
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.teachers-img {
+    width: 30px;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 20px;
+}
+
+.teacher h4 {
+    display: inline;
+}
+
+.slides-container {
+    width: 1085px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide-cards {
+    display: flex;
+}
+
+.card-slide .heading {
+    padding: 0 10px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.teacher-name {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.read-more {
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid gray;
+}
+
+@media (max-width: 1740px) {
+    .card-slide {
+        width: 259px;
+    }
+    .card-slide .card-image {
+        width: 259px;
+    }
+}
+@media (max-width: 1409px) {
+    .card-slide {
+        width: 350px;
+    }
+    .card-slide .card-image {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-slide {
+        width: 400px;
+    }
+    .card-slide .card-image {
+        width: 400px;
+    }
+    .slides-container {
+        width: 825px;
+    }
+}
+@media (max-width: 991px) {
+    .card-slide {
+        width: 320px;
+    }
+    .card-slide .card-image {
+        width: 320px;
+    }
+    .slides-container {
+        width: 663px;
+    }
+}
+
+@media (max-width: 771px) {
+    .card-slide {
+        width: 250px;
+    }
+    .card-slide .card-image {
+        width: 250px;
+    }
+    .slides-container {
+        width: 525px;
+    }
+}
+
+@media (max-width: 559px) {
+    .card-slide {
+        width: 400px;
+    }
+    .card-slide .card-image {
+        width: 400px;
+    }
+    .slides-container {
+        width: 410px;
+    }
+}

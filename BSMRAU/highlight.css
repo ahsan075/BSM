@@ -1,0 +1,50 @@
+#scroll {
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 200px;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+#oScroll {
+    display: flex;
+    background: #282828;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    float: right;
+    height: 30px;
+    overflow: hidden;
+}
+
+.items {
+    margin-right: 500px;
+}
+
+.items a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.items a:hover {
+    color: #b5b5b5;
+}
+.highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #4bbeff;
+    overflow: hidden;
+    color: white;
+    padding: 5px 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
